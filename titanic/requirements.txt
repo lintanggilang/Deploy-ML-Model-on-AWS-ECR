@@ -1,0 +1,5 @@
+fastapi
+pandas
+pydantic
+mangum
+scikit-learn

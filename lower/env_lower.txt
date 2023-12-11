@@ -1,0 +1,10 @@
+python -m venv env_lower
+
+.\env_lower\Scripts\activate
+
+python -m pip install -U pip
+
+pip install fastapi uvicorn pydantic pandas
+pip install scikit-learn
+
+uvicorn main:app --reload
